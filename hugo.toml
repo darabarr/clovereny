@@ -1,0 +1,26 @@
+baseURL = 'https://clovereny.es'
+languageCode = 'es-ES'
+title = 'Clovereny - Materiales Cerámicos y Filtros Industriales'
+
+[params]
+  description = 'Especialistas en materiales cerámicos refractarios, filtros de cerámica y componentes industriales de alta calidad'
+  geo = 'es'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Espuma Cerámica SiC"
+    url = "/espuma-ceramica-sic/page-2/"
+    weight = 20
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/page-24/"
+    weight = 30 
