@@ -247,7 +247,7 @@ Los **recubrimientos auto-reparables** mediante nanocápsulas que liberan agente
 <h4>Продолжить чтение:</h4>
 <ul class="list-unstyled">
 <li><a href="/blog/page-24/">Innovaciones en Materiales Cerámicos Refractarios 2025</a></li>
-<li><a href="/blog/dr3N-best-chain-link-fence-panels-2022-/">Tecnología DR3N: Revolución en Sistemas de Seguridad Perimetral</a></li>
+<li><a href="/blog/dr3n-best-chain-link-fence-panels-2022-/">Tecnología DR3N: Revolución en Sistemas de Seguridad Perimetral</a></li>
 <li><a href="/blog/frequent-breaks-in-undersea-pipelines-mean-fixes-are-possible/">Infraestructura Submarina: Revolución en Mantenimiento de Tuberías Oceánicas</a></li>
 <li><a href="/blog/5gmw-light-show-at-former-dos-rios-restaurant-attracts-attention/">Sistemas LED Avanzados: Revolución en Espectáculos Lumínicos Profesionales</a></li>
 <li><a href="/espuma-ceramica-sic/page-2/">Filtros de Espuma Cerámica de Carburo de Silicio (SiC)</a></li>

@@ -2,6 +2,7 @@
 
 ## КРИТИЧНО (первостепенно)
 - Hugo шаблоны = ТОЛЬКО разметка, НИКАКОГО контента
+- Hugo не должен автоматически преобразовывать имена папок в нижний регистр
 - Весь контент ТОЛЬКО из markdown файлов
 - СТРОГО: 1 H1 + 1 H2 максимум на страницу (в markdown, НЕ в шаблонах)
 - Структура HTML как в template-example.html (БЕЗ стилей)
@@ -25,7 +26,7 @@
 - В контенте страницы {{ .Title }} ЗАПРЕЩЕН если есть H1 в markdown
 
 ## SEO ОБЯЗАТЕЛЬНО
-- Canonical: `<link rel="canonical" href="/path/">` (БЕЗ https)
+- Canonical: `<link rel="canonical" href="/page-name/">` (БЕЗ https, Главная: `/`)
 - Title уникальный: из frontmatter markdown
 - Description уникальное: из frontmatter markdown
 - Favicon: /favicon.ico (на всех страницах)
@@ -73,7 +74,7 @@
 - АВТОПРОВЕРКА: grep "<h1>" content/**/*.md (должно быть 0 результатов)
 - АВТОПРОВЕРКА: grep "<h2>" content/**/*.md (должно быть 0 результатов)
 - Уникальность H1/Title на каждой странице
-- Canonical формат: /path/ (без https)
+- Canonical формат: только последняя часть URL (без https)
 - Структура URL соответствует папкам
 - Meta-теги без keywords и generator
 - Dropdown меню работает корректно
@@ -115,3 +116,4 @@
 ✓ Контент в .content-container
 ✓ Canonical корректный
 ✓ Title/Description уникальные
+

@@ -52,7 +52,7 @@ title = 'Clovereny - Materiales Cerámicos y Filtros Industriales'
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Seguridad Perimetral"
-    url = "/blog/dr3N-best-chain-link-fence-panels-2022-/"
+    url = "/blog/dr3n-best-chain-link-fence-panels-2022-/"
     weight = 34
     parent = "Blog Técnico"
   [[menu.main]]
