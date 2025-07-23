@@ -16,11 +16,72 @@ title = 'Clovereny - Materiales Cerámicos y Filtros Industriales'
     name = "Inicio"
     url = "/"
     weight = 10
+  
+  # Productos - Dropdown
   [[menu.main]]
-    name = "Espuma Cerámica SiC"
-    url = "/espuma-ceramica-sic/page-2/"
+    name = "Productos"
+    url = "#"
     weight = 20
+    hasChildren = true
   [[menu.main]]
-    name = "Blog"
+    name = "Filtros Espuma Cerámica SiC"
+    url = "/espuma-ceramica-sic/page-2/"
+    weight = 21
+    parent = "Productos"
+  
+  # Blog - Dropdown
+  [[menu.main]]
+    name = "Blog Técnico"
+    url = "#"
+    weight = 30
+    hasChildren = true
+  [[menu.main]]
+    name = "Innovaciones Cerámicas"
     url = "/blog/page-24/"
-    weight = 30 
+    weight = 31
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Sistemas LED"
+    url = "/blog/5gmw-light-show-at-former-dos-rios-restaurant-attracts-attention/"
+    weight = 32
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Biotecnología"
+    url = "/blog/astec-lifesciences-hits-record-high-amid-weak-market-shares/"
+    weight = 33
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Seguridad Perimetral"
+    url = "/blog/dr3N-best-chain-link-fence-panels-2022-/"
+    weight = 34
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Infraestructura Marina"
+    url = "/blog/frequent-breaks-in-undersea-pipelines-mean-fixes-are-possible/"
+    weight = 35
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Válvulas IFR3"
+    url = "/blog/ifr3-valve-ignores-fans-dota-team-bundle-demands-adds-six/"
+    weight = 36
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Inspección Alimentaria"
+    url = "/blog/mold-lebanon-county-restaurant-inspection-nov-lebanon-county-restaurant/"
+    weight = 37
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Ingeniería del Futuro"
+    url = "/blog/page-70/"
+    weight = 38
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Gestión CO2"
+    url = "/blog/pnts-the-co-shortage-tips-for-efficiently-using-co-in/"
+    weight = 39
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Equipamiento Viaje"
+    url = "/blog/swnx-gift-guide-for-travel-lovers-seattle-magazine/"
+    weight = 40
+    parent = "Blog Técnico" 
