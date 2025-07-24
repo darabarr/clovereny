@@ -3,6 +3,10 @@ languageCode = 'es-ES'
 title = 'Clovereny - Materiales Cerámicos y Filtros Industriales'
 disablePathToLower = true
 
+# Disable RSS feeds
+disableKinds = ['RSS', 'taxonomy', 'term']
+# Keep sitemap enabled by default
+
 [params]
   description = 'Especialistas en materiales cerámicos refractarios, filtros de cerámica y componentes industriales de alta calidad'
   geo = 'es'
