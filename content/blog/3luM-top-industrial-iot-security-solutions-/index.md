@@ -1,7 +1,6 @@
 ---
 title: "Soluciones IoT de Seguridad Industrial de Próxima Generación 2025"
 description: "Análisis técnico de soluciones de seguridad IoT industrial, tecnologías de protección avanzadas, sistemas de monitoreo en tiempo real y arquitecturas de seguridad distribuida."
-canonical: "/blog/3luM-top-industrial-iot-security-solutions-/"
 ---
 
 # Seguridad IoT Industrial: Revolución en Protección de Sistemas Conectados
@@ -452,13 +451,4 @@ Los **security metrics** measure effectiveness:
 
 ---
 
-<div class="related-articles mt-5">
-<h4>Продолжить чтение:</h4>
-<ul class="list-unstyled">
-<li><a href="/blog/ecx5-whisper-and-grey-hk-campaign-x-protection-beyond-imagination/">Sistemas ECX5 Whisper Grey: Revolución en Protección Industrial Avanzada</a></li>
-<li><a href="/blog/chty-bloomberg-are-you-a-robot/">Sistemas Anti-Bot Bloomberg: Detección Avanzada de Automatización</a></li>
-<li><a href="/blog/-fvb-stackpath/">Tecnología StackPath: Infraestructura CDN Avanzada y Edge Computing</a></li>
-<li><a href="/blog/08oy-custom-amd-radeon-rx-xtx-can-hit-ghz-clock/">Tecnología AMD Radeon RX XTX: Overclocking Extremo y Aplicaciones Industriales</a></li>
-<li><a href="/espuma-ceramica-sic/page-2/">Filtros de Espuma Cerámica de Carburo de Silicio (SiC)</a></li>
-</ul>
-</div> 
+{{< related-articles "ecx5-whisper-and-grey-hk-campaign-x-protection-beyond-imagination" "sistemas-anti-bot-bloomberg-proteccion-digital" "-fvb-stackpath" "08oy-custom-amd-radeon-rx-xtx-can-hit-ghz-clock" "page-2" >}} 

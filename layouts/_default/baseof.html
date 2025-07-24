@@ -16,11 +16,8 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     {{ end }}
     <meta name="geo" content="es">
-    {{ if .Params.canonical }}
-    <link rel="canonical" href="{{ .Params.canonical }}">
-    {{ else }}
+    {{/* Dynamic canonical URL - automatically follows folder structure */}}
     <link rel="canonical" href="{{ .RelPermalink }}">
-    {{ end }}
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">

@@ -1,7 +1,7 @@
 ---
 title: "Tecnologías Avanzadas de Inspección Alimentaria - Sistemas de Control de Calidad 2025"
 description: "Análisis técnico de sistemas modernos de inspección alimentaria, detección de contaminantes, tecnologías de trazabilidad y protocolos de seguridad en la industria alimentaria."
-canonical: "/blog/mold-lebanon-county-restaurant-inspection-nov-lebanon-county-restaurant/"
+
 ---
 
 # Sistemas Avanzados de Inspección Alimentaria: Tecnología para Seguridad Total

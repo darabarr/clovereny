@@ -48,7 +48,7 @@ disablePathToLower = true
     parent = "Tecnología Industrial"
   [[menu.main]]
     name = "Propulsión Avanzada"
-    url = "/blog/pjdd-cfmoto-releases-the-2023-450sr-sportbike-in-malaysia/"
+    url = "/blog/tecnologia-cfmoto-450sr-propulsion-avanzada/"
     weight = 33
     parent = "Tecnología Industrial"
   [[menu.main]]
@@ -80,7 +80,7 @@ disablePathToLower = true
   parent = "Seguridad y Protección"
   [[menu.main]]
     name = "Anti-Bot Bloomberg"
-    url = "/blog/chty-bloomberg-are-you-a-robot/"
+    url = "/blog/sistemas-anti-bot-bloomberg-proteccion-digital/"
     weight = 44
     parent = "Seguridad y Protección"
   
@@ -102,7 +102,7 @@ disablePathToLower = true
     parent = "Tecnología Avanzada"
   [[menu.main]]
     name = "Sistemas LED Industriales"
-    url = "/blog/5gmw-light-show-at-former-dos-rios-restaurant-attracts-attention/"
+    url = "/blog/sistemas-led-espectaculos-luminicos-profesionales/"
     weight = 53
     parent = "Tecnología Avanzada"
   [[menu.main]]
@@ -124,7 +124,7 @@ disablePathToLower = true
     parent = "Biotecnología y Ciencias"
   [[menu.main]]
     name = "Tecnología Capilar"
-    url = "/blog/z86o-11-things-you-need-in-your-everyday-hair-kit-mane-addicts/"
+    url = "/blog/tecnologia-cuidado-capilar-avanzado-2025/"
     weight = 62
     parent = "Biotecnología y Ciencias"
   [[menu.main]]
@@ -151,7 +151,7 @@ disablePathToLower = true
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Válvulas IFR3"
-    url = "/blog/ifr3-valve-ignores-fans-dota-team-bundle-demands-adds-six/"
+    url = "/blog/valvulas-ifr3-control-fluidos-industriales/"
     weight = 72
     parent = "Blog Técnico"
   [[menu.main]]
@@ -161,7 +161,7 @@ disablePathToLower = true
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Inspección Alimentaria"
-    url = "/blog/mold-lebanon-county-restaurant-inspection-nov-lebanon-county-restaurant/"
+    url = "/blog/inspeccion-sistemas-alimentarios-avanzados/"
     weight = 74
     parent = "Blog Técnico"
   [[menu.main]]
@@ -171,6 +171,6 @@ disablePathToLower = true
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Equipamiento Viaje"
-    url = "/blog/swnx-gift-guide-for-travel-lovers-seattle-magazine/"
+    url = "/blog/equipamiento-tecnico-viajeros-profesionales/"
     weight = 76
     parent = "Blog Técnico" 

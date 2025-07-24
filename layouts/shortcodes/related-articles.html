@@ -1,0 +1,27 @@
+{{/* Related Articles Shortcode - Dynamic URL Resolution */}}
+<div class="related-articles mt-5">
+<h4>Продолжить чтение:</h4>
+<ul class="list-unstyled">
+{{ range .Params }}
+  {{ $folderName := . }}
+  {{ $targetPage := "" }}
+  
+  {{/* Try to get page from blog section first */}}
+  {{ $blogPath := printf "blog/%s" $folderName }}
+  {{ $targetPage = site.GetPage $blogPath }}
+  
+  {{/* If not found in blog, try other sections */}}
+  {{ if not $targetPage }}
+    {{ $targetPage = site.GetPage $folderName }}
+  {{ end }}
+  
+  {{/* Generate link if page found */}}
+  {{ if $targetPage }}
+    <li><a href="{{ $targetPage.RelPermalink }}">{{ $targetPage.Title }}</a></li>
+  {{ else }}
+    {{/* Debug: Show missing page */}}
+    <!-- Missing related page: {{ $folderName }} -->
+  {{ end }}
+{{ end }}
+</ul>
+</div> 

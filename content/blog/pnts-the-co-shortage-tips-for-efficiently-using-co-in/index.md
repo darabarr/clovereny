@@ -411,7 +411,7 @@ La **tecnología blockchain** transparenta comercio de carbono:
 <ul class="list-unstyled">
 <li><a href="/blog/page-24/">Innovaciones en Materiales Cerámicos Refractarios 2025</a></li>
 <li><a href="/blog/page-70/">Ingeniería del Futuro: Convergencia de Tecnologías Disruptivas</a></li>
-<li><a href="/blog/mold-lebanon-county-restaurant-inspection-nov-lebanon-county-restaurant/">Sistemas Avanzados de Inspección Alimentaria: Tecnología para Seguridad Total</a></li>
+<li><a href="/blog/inspeccion-sistemas-alimentarios-avanzados/">Sistemas Avanzados de Inspección Alimentaria: Tecnología para Seguridad Total</a></li>
 <li><a href="/blog/frequent-breaks-in-undersea-pipelines-mean-fixes-are-possible/">Infraestructura Submarina: Revolución en Mantenimiento de Tuberías Oceánicas</a></li>
 <li><a href="/espuma-ceramica-sic/page-2/">Filtros de Espuma Cerámica de Carburo de Silicio (SiC)</a></li>
 </ul>

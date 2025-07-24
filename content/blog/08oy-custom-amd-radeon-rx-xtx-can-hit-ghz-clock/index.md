@@ -456,8 +456,8 @@ Los **compliance frameworks** ensure regulatory adherence:
 <ul class="list-unstyled">
 <li><a href="/blog/wuob-cesurbend-s-cesur-and-axis-cnc-tube-benders-can/">Sistemas CNC Cesurbend: Revolución en Doblado de Tubos Industriales</a></li>
 <li><a href="/blog/3luM-top-industrial-iot-security-solutions-/">Soluciones IoT de Seguridad Industrial de Próxima Generación</a></li>
-<li><a href="/blog/pjdd-cfmoto-releases-the-2023-450sr-sportbike-in-malaysia/">CFMOTO 450SR 2023: Tecnología Avanzada en Propulsión Deportiva</a></li>
-<li><a href="/blog/chty-bloomberg-are-you-a-robot/">Sistemas Anti-Bot Bloomberg: Detección Avanzada de Automatización</a></li>
+<li><a href="/blog/tecnologia-cfmoto-450sr-propulsion-avanzada/">CFMOTO 450SR 2023: Tecnología Avanzada en Propulsión Deportiva</a></li>
+<li><a href="/blog/sistemas-anti-bot-bloomberg-proteccion-digital/">Sistemas Anti-Bot Bloomberg: Detección Avanzada de Automatización</a></li>
 <li><a href="/espuma-ceramica-sic/page-2/">Filtros de Espuma Cerámica de Carburo de Silicio (SiC)</a></li>
 </ul>
 </div> 

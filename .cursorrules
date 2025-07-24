@@ -104,6 +104,10 @@
 - Расположение: После основного контента, перед футером
 - Текст: "Продолжить чтение:" с описательными заголовками ссылок
 - Bootstrap: Использовать классы .related-articles и .list-unstyled
+- ЗАПРЕЩЕНО: Hardcoded URLs в Related Articles (/blog/folder-name/)
+- ОБЯЗАТЕЛЬНО: Hugo shortcode для related articles вместо hardcoded URLs
+- Формат: {{< related-articles "folder1" "folder2" "folder3" >}}
+- АВТОПРОВЕРКА: grep "href=\"/blog/" content/**/*.md должно показать 0 результатов
 
 ## CHЕКЛИСТ ПЕРЕД ЗАВЕРШЕНИЕМ
 ✓ ls content/blog/ | grep "[A-Z]" показывает 0 результатов (NO mixed case folders)
