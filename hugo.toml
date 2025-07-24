@@ -1,6 +1,7 @@
 baseURL = 'https://clovereny.es'
 languageCode = 'es-ES'
 title = 'Clovereny - Materiales Cerámicos y Filtros Industriales'
+disablePathToLower = true
 
 [params]
   description = 'Especialistas en materiales cerámicos refractarios, filtros de cerámica y componentes industriales de alta calidad'
@@ -29,59 +30,147 @@ title = 'Clovereny - Materiales Cerámicos y Filtros Industriales'
     weight = 21
     parent = "Productos"
   
-  # Blog - Dropdown
+  # Tecnología Industrial - Dropdown
   [[menu.main]]
-    name = "Blog Técnico"
+    name = "Tecnología Industrial"
     url = "#"
     weight = 30
     hasChildren = true
   [[menu.main]]
+    name = "Sistemas CNC y Manufactura"
+    url = "/blog/wuob-cesurbend-s-cesur-and-axis-cnc-tube-benders-can/"
+    weight = 31
+    parent = "Tecnología Industrial"
+  [[menu.main]]
+    name = "Tecnología de Reciclaje"
+    url = "/blog/w--f-why-your-recycling-doesnt-always-get-recycled/"
+    weight = 32
+    parent = "Tecnología Industrial"
+  [[menu.main]]
+    name = "Propulsión Avanzada"
+    url = "/blog/pjdd-cfmoto-releases-the-2023-450sr-sportbike-in-malaysia/"
+    weight = 33
+    parent = "Tecnología Industrial"
+  [[menu.main]]
+    name = "Expansión Asia-Pacífico"
+    url = "/blog/us1u-scoular-expands-its-asia-pacific-footprint-to-vietnam/"
+    weight = 34
+    parent = "Tecnología Industrial"
+  
+  # Seguridad y Protección - Dropdown
+  [[menu.main]]
+    name = "Seguridad y Protección"
+    url = "#"
+    weight = 40
+    hasChildren = true
+  [[menu.main]]
+    name = "Seguridad IoT Industrial"
+    url = "/blog/3luM-top-industrial-iot-security-solutions-/"
+    weight = 41
+    parent = "Seguridad y Protección"
+  [[menu.main]]
+    name = "Sistemas ECX5 Whisper Grey"
+    url = "/blog/ecx5-whisper-and-grey-hk-campaign-x-protection-beyond-imagination/"
+    weight = 42
+    parent = "Seguridad y Protección"
+  [[menu.main]]
+  name = "Seguridad Perimetral"
+  url = "/blog/dr3n-best-chain-link-fence-panels-2022-/"
+  weight = 43
+  parent = "Seguridad y Protección"
+  [[menu.main]]
+    name = "Anti-Bot Bloomberg"
+    url = "/blog/chty-bloomberg-are-you-a-robot/"
+    weight = 44
+    parent = "Seguridad y Protección"
+  
+  # Tecnología Avanzada - Dropdown
+  [[menu.main]]
+    name = "Tecnología Avanzada"
+    url = "#"
+    weight = 50
+    hasChildren = true
+  [[menu.main]]
+    name = "GPU Computing AMD"
+    url = "/blog/08oy-custom-amd-radeon-rx-xtx-can-hit-ghz-clock/"
+    weight = 51
+    parent = "Tecnología Avanzada"
+  [[menu.main]]
+    name = "Infraestructura CDN"
+    url = "/blog/-fvb-stackpath/"
+    weight = 52
+    parent = "Tecnología Avanzada"
+  [[menu.main]]
+    name = "Sistemas LED Industriales"
+    url = "/blog/5gmw-light-show-at-former-dos-rios-restaurant-attracts-attention/"
+    weight = 53
+    parent = "Tecnología Avanzada"
+  [[menu.main]]
+    name = "Iluminación LED Bollard"
+    url = "/blog/5-ji-new-updated-arci-extreme-life-led-bollard-light-ein-presswire/"
+    weight = 54
+    parent = "Tecnología Avanzada"
+  
+  # Biotecnología y Ciencias - Dropdown
+  [[menu.main]]
+    name = "Biotecnología y Ciencias"
+    url = "#"
+    weight = 60
+    hasChildren = true
+  [[menu.main]]
+    name = "Biotecnología Avanzada"
+    url = "/blog/astec-lifesciences-hits-record-high-amid-weak-market-shares/"
+    weight = 61
+    parent = "Biotecnología y Ciencias"
+  [[menu.main]]
+    name = "Tecnología Capilar"
+    url = "/blog/z86o-11-things-you-need-in-your-everyday-hair-kit-mane-addicts/"
+    weight = 62
+    parent = "Biotecnología y Ciencias"
+  [[menu.main]]
+    name = "Preservación Alimentaria"
+    url = "/blog/the-best-glass-food-storage-containers-and-reusable-snack/"
+    weight = 63
+    parent = "Biotecnología y Ciencias"
+  [[menu.main]]
+    name = "Gestión CO2"
+    url = "/blog/pnts-the-co-shortage-tips-for-efficiently-using-co-in/"
+    weight = 64
+    parent = "Biotecnología y Ciencias"
+  
+  # Blog Técnico - Dropdown
+  [[menu.main]]
+    name = "Blog Técnico"
+    url = "#"
+    weight = 70
+    hasChildren = true
+  [[menu.main]]
     name = "Innovaciones Cerámicas"
     url = "/blog/page-24/"
-    weight = 31
-    parent = "Blog Técnico"
-  [[menu.main]]
-    name = "Sistemas LED"
-    url = "/blog/5gmw-light-show-at-former-dos-rios-restaurant-attracts-attention/"
-    weight = 32
-    parent = "Blog Técnico"
-  [[menu.main]]
-    name = "Biotecnología"
-    url = "/blog/astec-lifesciences-hits-record-high-amid-weak-market-shares/"
-    weight = 33
-    parent = "Blog Técnico"
-  [[menu.main]]
-    name = "Seguridad Perimetral"
-    url = "/blog/dr3n-best-chain-link-fence-panels-2022-/"
-    weight = 34
-    parent = "Blog Técnico"
-  [[menu.main]]
-    name = "Infraestructura Marina"
-    url = "/blog/frequent-breaks-in-undersea-pipelines-mean-fixes-are-possible/"
-    weight = 35
+    weight = 71
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Válvulas IFR3"
     url = "/blog/ifr3-valve-ignores-fans-dota-team-bundle-demands-adds-six/"
-    weight = 36
+    weight = 72
+    parent = "Blog Técnico"
+  [[menu.main]]
+    name = "Infraestructura Marina"
+    url = "/blog/frequent-breaks-in-undersea-pipelines-mean-fixes-are-possible/"
+    weight = 73
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Inspección Alimentaria"
     url = "/blog/mold-lebanon-county-restaurant-inspection-nov-lebanon-county-restaurant/"
-    weight = 37
+    weight = 74
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Ingeniería del Futuro"
     url = "/blog/page-70/"
-    weight = 38
-    parent = "Blog Técnico"
-  [[menu.main]]
-    name = "Gestión CO2"
-    url = "/blog/pnts-the-co-shortage-tips-for-efficiently-using-co-in/"
-    weight = 39
+    weight = 75
     parent = "Blog Técnico"
   [[menu.main]]
     name = "Equipamiento Viaje"
     url = "/blog/swnx-gift-guide-for-travel-lovers-seattle-magazine/"
-    weight = 40
+    weight = 76
     parent = "Blog Técnico" 

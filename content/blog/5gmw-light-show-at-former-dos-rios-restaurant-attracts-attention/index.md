@@ -1,6 +1,7 @@
 ---
 title: "Tecnologías de Iluminación LED Avanzada - Sistemas de Espectáculos Lumínicos 2025"
 description: "Análisis técnico de sistemas LED profesionales, tecnologías de control lumínico, espectáculos interactivos y aplicaciones arquitectónicas. Innovaciones en iluminación inteligente."
+canonical: "/blog/5gmw-light-show-at-former-dos-rios-restaurant-attracts-attention/"
 ---
 
 # Sistemas LED Avanzados: Revolución en Espectáculos Lumínicos Profesionales

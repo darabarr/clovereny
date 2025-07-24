@@ -16,7 +16,11 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     {{ end }}
     <meta name="geo" content="es">
+    {{ if .Params.canonical }}
+    <link rel="canonical" href="{{ .Params.canonical }}">
+    {{ else }}
     <link rel="canonical" href="{{ .RelPermalink }}">
+    {{ end }}
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -39,13 +43,13 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-ceramic">
-        <div class="container">
+    <nav class="navbar navbar-expand-xl navbar-ceramic">
+        <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <i class="fas fa-industry me-2"></i>Clovereny
             </a>
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
@@ -110,6 +114,62 @@
         AOS.init({
             duration: 1000,
             once: true
+        });
+
+        // Adaptive dropdown positioning
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdowns = document.querySelectorAll('.navbar-ceramic .dropdown');
+            
+            dropdowns.forEach(function(dropdown) {
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+                
+                if (dropdownMenu && dropdownToggle) {
+                    dropdownToggle.addEventListener('shown.bs.dropdown', function() {
+                        if (window.innerWidth >= 1200) {
+                            const rect = dropdownMenu.getBoundingClientRect();
+                            const screenWidth = window.innerWidth;
+                            
+                            // If dropdown extends beyond right edge
+                            if (rect.right > screenWidth - 20) {
+                                dropdownMenu.style.left = 'auto';
+                                dropdownMenu.style.right = '0';
+                            }
+                            // If dropdown extends beyond left edge
+                            else if (rect.left < 20) {
+                                dropdownMenu.style.left = '0';
+                                dropdownMenu.style.right = 'auto';
+                            }
+                        }
+                    });
+                }
+            });
+
+            // Recalculate on window resize
+            window.addEventListener('resize', function() {
+                dropdowns.forEach(function(dropdown) {
+                    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                    if (dropdownMenu && dropdown.classList.contains('show')) {
+                        // Reset positioning
+                        dropdownMenu.style.left = '';
+                        dropdownMenu.style.right = '';
+                        
+                        // Reapply if needed
+                        if (window.innerWidth >= 1200) {
+                            const rect = dropdownMenu.getBoundingClientRect();
+                            const screenWidth = window.innerWidth;
+                            
+                            if (rect.right > screenWidth - 20) {
+                                dropdownMenu.style.left = 'auto';
+                                dropdownMenu.style.right = '0';
+                            } else if (rect.left < 20) {
+                                dropdownMenu.style.left = '0';
+                                dropdownMenu.style.right = 'auto';
+                            }
+                        }
+                    }
+                });
+            });
         });
     </script>
 </body>

@@ -7,6 +7,7 @@
 - СТРОГО: 1 H1 + 1 H2 максимум на страницу (в markdown, НЕ в шаблонах)
 - Структура HTML как в template-example.html (БЕЗ стилей)
 - HTML разметка для дизайна и структуры РАЗРЕШЕНА в markdown файлах (кроме H1/H2)
+- disablePathToLower = true in hugo.toml
 
 ## СТРУКТУРА ЗАГОЛОВКОВ (КРИТИЧНО)
 - СТРОГО 1 H1 на страницу (# в markdown)
@@ -94,6 +95,7 @@
 - Формат dropdown: parent = "Категория" для подстраниц
 - Проверка: Все страницы доступны через dropdown навигацию
 - Порядок: Главная (10) → Основная категория (20-29) → Вторичная категория (30-49)
+- Меню и вырадающие окна должны быть адаптивны к изменению размера экрана
 
 ## ВНУТРЕННИЕ ССЫЛКИ (ОБЯЗАТЕЛЬНО)
 - ЗАПРЕЩЕНО: Внутренние ссылки в середине основного контента
@@ -104,6 +106,11 @@
 - Bootstrap: Использовать классы .related-articles и .list-unstyled
 
 ## CHЕКЛИСТ ПЕРЕД ЗАВЕРШЕНИЕМ
+✓ ls content/blog/ | grep "[A-Z]" показывает 0 результатов (NO mixed case folders)
+✓ disablePathToLower = true в hugo.toml
+✓ Все canonical URLs точно соответствуют folder names
+✓ Menu URLs в hugo.toml точно соответствуют folder names
+✓ Screaming Frog: NO "Non-indexable" + "Canonicalised" страниц
 ✓ grep "^# " показывает 1 H1 на файл
 ✓ grep "^## " показывает 1 H2 на файл
 ✓ grep "<h1>" показывает 0 результатов в content/
